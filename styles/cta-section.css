@@ -1,0 +1,38 @@
+.cta-section{
+    background-color: var(--color-bg);
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cta-section h2{
+    color: var(--color-w);
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.cta-section span{
+    color: var(--color-primary);
+}
+
+.cta-section p{
+    color: var(--color-gray-dark);
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    
+}
+
+@media (min-width: 1025px){
+    
+    .cta-section h2{
+        width: 50%;
+    }
+    .cta-section p{
+        width: 40%;
+        font-size: 0.7rem;
+        
+    }
+    
+}

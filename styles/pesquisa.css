@@ -1,0 +1,96 @@
+
+:root{
+    --color-bg : #141414;
+    --color-w : #ffff;
+    --color-gray : #EDEDED;
+    --color-primary : #42A5F5;
+    --padding-wrapper: 2rem 2rem;
+}
+
+body{
+    background-color: var(--color-bg);
+    font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+a{
+    color: inherit;
+}
+
+.cta-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: var(--color-w);
+    border-radius: 8px;
+}
+
+.section-title {
+    font-size: 24px;
+    text-align: center;
+    color: var(--cor-texto, #333);
+    margin-bottom: 5px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.form-group, .form-group-radio {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--cor-texto, #333);
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: var(--color-primary); 
+    outline: none;
+}
+
+.radio-options {
+    display: flex;
+    gap: 20px;
+}
+
+.cta-button {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    filter: brightness(0.85);
+}
+
+.privacy-note {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    margin-top: 15px;
+}

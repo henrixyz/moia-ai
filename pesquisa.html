@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pesquisa.css">
+    <title>pesquisa</title>
+</head>
+   <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+<body>
+    <section id="pesquisa-rapida" class="cta-section">
+    
+    <div class="card-research">
+        <form action="/submit-survey" method="POST" class="survey-form">
+            
+            <div class="form-group">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Seu Melhor E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="principal_problema">Qual o seu maior desafio hoje?</label>
+                <select id="principal_problema" name="principal_problema" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="desperdicio_agua">Alto desperdício de água</option>
+                    <option value="alto_custo_tecnologia">Alto custo de tecnologia</option>
+                    <option value="falta_dados_solo">Falta de dados precisos do solo</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            
+            <div class="form-group-radio">
+                <p>Você se interessaria por um pré-pedido com desconto?</p>
+                
+                <div class="radio-options">
+                    <label><input type="radio" name="interesse_compra" value="sim"> Sim, com certeza!</label>
+                    <label><input type="radio" name="interesse_compra" value="talvez"> Talvez, preciso de mais informações.</label>
+                    <label><input type="radio" name="interesse_compra" value="nao"> Não, obrigado.</label>
+                </div>
+            </div>
+            
+            <button type="submit" class="cta-button">
+                <a href="assets/doc/documento.oficial.docx">
+                    ENVIAR RESPOSTAS E ACESSAR MATERIAL
+                </a>
+            </button>
+            
+            <p class="privacy-note">
+                Ao enviar, você concorda com nossa Política de Privacidade.
+            </p>
+        </form>
+    </div>
+    </section>
+</body>
+</html>

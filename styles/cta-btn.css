@@ -1,0 +1,35 @@
+
+.cta-btn{
+    display: inline-block;
+    border: 0;
+    background-color: var(--color-primary);
+    color: var(--color-w);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem;
+    text-transform: capitalize;
+    border-radius: 8px;
+    margin-bottom: .5rem;
+    transition: ease 0.2s;
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    a:hover{
+        color: var(--color-w);
+    }
+}
+
+
+
+@media (min-width: 1025px){
+    .cta-btn{
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 0.7rem;
+        font-weight: 600;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+}

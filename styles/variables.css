@@ -1,0 +1,10 @@
+
+:root{
+    --color-bg : #141414;
+    --color-w : #ffff;
+    --color-gray : #EDEDED;
+    --color-green : #9fe13f;
+    --color-gray-dark : #cccccc;
+    --color-primary : #42A5F5;
+    --padding-wrapper: 2rem 2rem;
+}
