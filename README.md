@@ -1,3 +1,2 @@
-# 🌱móia-aí
+# moia-ai
 landing page do projeto moia aí
-

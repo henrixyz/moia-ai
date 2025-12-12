@@ -80,17 +80,17 @@
     }
 
     .sys-overview-section .product-img.on{
-    width: 100%;
-    display: block;
+        width: 100%;
+        display: block;
     }
 
     .sys-overview-section .card-text{
-    padding: 1rem;
-    width: 20rem;
-    border: #848383 solid 1px;
-    border-radius: 8px ;
-    color: #3A3A3A;
-    font-size: 0.9rem;
+        padding: 1rem;
+        width: 20rem;
+        border: #848383 solid 1px;
+        border-radius: 8px ;
+        color: #3A3A3A;
+        font-size: 0.9rem;
     }
   
     

@@ -108,7 +108,7 @@
 
 .card-container .card p{
     width: 90%;
-}
+    }
     .pes-section img{
         width: 60%;
         display: block;
@@ -163,7 +163,7 @@
     }
 
     .pes-section p{
-    font-size: 0.7rem;
+    font-size: 16px;
     }
 
     .pes-section h3{
